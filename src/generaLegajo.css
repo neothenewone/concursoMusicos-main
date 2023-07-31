@@ -1,0 +1,87 @@
+.hojaLegajo{
+    height: 29,7cm;
+    width: 21cm;
+    background-color: rgb(255, 255, 255);
+    margin: left;
+    
+}
+
+.titulo_legajo{
+   
+
+   margin-top:1cm;
+    max-width: 21cm;
+   text-align: center;
+   color: rgb(3, 122, 83);
+   font-size: small;
+   
+}
+
+.datosPersonales_legajo{
+    text-align: left;
+    margin-left: 1.5cm;
+   color: rgb(0, 41, 27);
+   font-size: small;
+   
+}
+.sub_titulo_legajo{
+    font-size: large;
+}
+.advertencia_cierre{
+    color: red;
+    text-align: center;
+    font-size: large;
+    margin: 10px;
+
+}
+.firma{
+
+    color: #000;
+    text-align: right;
+    font-size: large;
+    margin-right: 2cm;
+    margin-top: 1cm;
+
+}
+#imprime{
+    
+    text-align: center;
+    width: 9.0rem;
+    background: #0a1841;
+    border: none;
+    padding: 12px;
+    color: #e3e5e9;
+    margin: 3px 0;
+    border-radius: 20px;
+    font-size: 16px;
+  }
+  
+  #imprime:hover{
+      
+   
+    background: green;
+    
+    
+  }
+  
+  #edita{
+      
+    text-align: center;
+    width: 9.0rem;
+    background: #0a1841;
+    border: none;
+    padding: 12px;
+    color: #e3e5e9;
+    margin: 3px 0;
+    border-radius: 20px;
+    
+    font-size: 16px;
+  }
+  
+  #edita:hover{
+      
+   
+    background: green;
+    
+    
+  }

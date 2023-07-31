@@ -1,0 +1,230 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Sassy+Frass&display=swap');
+
+.contenedor_Form {
+  font-family: 'Roboto', sans-serif;
+  display: block;
+  min-height: 80vh;
+ 
+}
+.aviso-campos-loguin {
+  color: red;
+  
+  
+  margin-left: 150px;
+ 
+ 
+}
+
+.form_use {
+  background-color: #ffffffe5;
+  float: left;
+  min-width: 10%;
+  width: 64%;
+  height: 40%;
+
+  position: inherit;
+  
+  padding: 3.5em 3em;
+  border-radius: 10px;
+ 
+  display: block;
+}
+.form__title_Important{
+  font-size: 3rem;
+  margin-bottom: 0.5em;
+  margin-top: -30px;
+  text-align: center;
+}
+.form__title {
+  font-size: 2rem;
+  margin-bottom: 0.5em;
+  margin-top: -10px;
+}
+.form__sub-title {
+  font-size: 1.2rem;
+  
+  margin-bottom: 0.5em;
+  margin-top: -10px;
+}
+.form__paragraph {
+  font-weight: 100;
+  font-size: 15px;
+  text-align: justify;
+  font-size: smaller;
+}
+
+.form__link {
+  font-weight: 400;
+  color: #000;
+}
+
+.form__container {
+  margin-top: 2.0em;
+  display: grid;
+  gap: 1.5em;
+  user-select: none;
+}
+
+.form__group {
+  position: relative;
+  --color: #5757577e;
+}
+
+.form__input {
+  width:90%;
+  height: 40px;
+  background: none;
+  color: #4d4c4c;
+  font-size: 1.5rem;
+  padding: 0.5em 0.3em;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid var(--color);
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.form__input:focus + .form__label,
+.form__input:not(:placeholder-shown) + .form__label {
+  transform: translateY(-12px) scale(0.7);
+  transform-origin: left top;
+  color: #0a1841;
+  font-weight: 300;
+}
+.form__label {
+  color: var(--color);
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 5px;
+  transform: translateY(10px);
+  transition: transform 0.5s, color 0.3s;
+}
+
+.form__submit {
+  background-color: #0a1841;
+  color: #fff;
+  font-family: 'roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  padding: 1em 0;
+  border: none;
+  border-radius: 0.5em;
+  height: 90%;
+}
+
+
+.form__submit:hover {
+  background-color: #0e6416;
+  color: #fff;
+
+
+}
+
+.form__input-checkbox{
+    margin-top: -2px;
+    display: absolute;
+    cursor: pointer;
+    background-color: #fff;
+    color: #fff;
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z'/%3e%3c/svg%3e");
+    width: 29px;
+    height: 29px;
+    appearance: none;
+    border: 1px solid #888;
+    background-position: 0 -2rem;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transition: all 0.3s ease-in-out;
+  }
+  .form__input-checkbox:checked {
+    background-color: #0a1841;
+    color: rgb(255, 255, 255);
+    background-position: 0 0;
+  } 
+ 
+
+.form__line {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+
+}
+.form__footer{
+  text-align: center;
+  font-size: smaller;
+  height: auto;
+  width: 100%;
+  margin-top: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.aviso-checkbox {
+  color: red;
+  
+  margin-left: 110px;
+ 
+}
+
+@media only screen and (min-width: 1334px) {
+  .imagen_loguin{
+    
+    width: 480px;
+    height: 679px;
+    background-image: url('loginBackground2.jpeg');
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+  }
+  .resolucion{
+    display: none;    
+  }
+  
+ 
+}
+@media only screen and (min-width: 375px) and (max-width: 1150px) {
+  
+  .form_use {
+    background-color: #ffffffe5;
+  float: none;  
+    min-width: 10%;
+    width: 90%;
+    height: 40%;
+  
+     
+    padding: 3.5em 3em;
+    border-radius: 10px;
+   
+    display: block;
+  }
+  .form__title_Important{
+    font-size: 2rem;
+    margin-bottom: 0.5em;
+    margin-top: -30px;
+    text-align: center;
+  }
+  .form__title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5em;
+    margin-top: -10px;
+  }
+  .form__sub-title {
+    font-size: 1.2rem;
+    
+    margin-bottom: 0.5em;
+    margin-top: -10px;
+  }
+  .resolucion{
+    display: none;    
+  }
+
+
+@media only screen and (max-width: 374px) {
+
+  form{
+    display:none;
+  }}}

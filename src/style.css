@@ -1,0 +1,30 @@
+
+   @media only screen and (min-width: 1151px) {
+     .resolucion{
+       display: none;    
+     }
+       
+    
+   }
+   @media only screen and (min-width: 370px) and (max-width: 1150px) {
+     .resolucion{
+       display: none; 
+       
+     }
+     
+   
+   
+   @media only screen and (max-width: 386px) {
+   
+     form{
+       display:none;
+     }
+     .resolucion{
+      display: block;
+      margin: 15px;
+      text-align: justify;
+     }
+     
+     
+   }
+ }

@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Sassy+Frass&display=swap');
+* {
+    
+    box-sizing: border-box; 
+    font-family: 'roboto',sans-serif;
+    } 
+    
+    @media only screen and (min-width: 1151px) { /* resolucion PC */
+      .resolucion{
+        display: none; 
+      }
+     
+      .form__formulario {
+        display: flex;
+       
+        width: 100%;
+        background-color: #f9f9f9;
+        background: -webkit-linear-gradient(#6a89cc, #0a3d62);
+        background: -moz-linear-gradient(#6a89cc, #0a3d62);
+        background: -o-linear-gradient(#6a89cc, #0a3d62);
+        padding: 10px;
+        margin: auto;
+        margin-top: 50px;
+        border-radius: 4px;
+        font-family: 'roboto', sans-serif;
+        color: white; 
+      }
+    
+      .form__formulario .encabezados{ 
+        font-family:'roboto', sans-serif ;
+        font-size: 25px;
+        color: #3a63a5;
+        text-align: left;
+        margin-right: 10px;
+        margin-bottom: 16px;
+       
+      }
+      
+    
+      .datos-personales{ /* 1er - Formulario de datos personales*/ 
+        display: inline-block;
+       
+        background: #fdfdfd;
+        padding: 10px;
+        border-radius: 14px;
+        margin-bottom: 16px;
+        border: 1px solid #a1a4a9;
+        
+        font-weight: bold;
+        font-size: 18px;
+        color: #3a63a5;
+        flex-wrap: wrap;
+        text-align: ce;
+        margin-right: 5px;
+      }
+
+      .domicilio_y_datos_de_contacto{ /* 2do - Formulario de datos contacto*/
+        display: inline-block;
+       
+        background: #fdfdfd;
+        padding: 10px;
+        border-radius: 14px;
+        margin-bottom: 16px;
+        border: 1px solid #a1a4a9;
+        
+        font-weight: bold;
+        font-size: 18px;
+        color: #3a63a5;
+        flex-wrap: wrap;
+        text-align: left;
+        margin-right: 5px;
+      }
+
+      .educacion_formal{ /* 3er formulario Educacion Formal */ 
+        display: inline-block;
+       
+        background: #fdfdfd;
+        padding: 20px;
+        border-radius: 14px;
+        margin-bottom: 16px;
+        border: 1px solid #a1a4a9;
+        font-family: 'calibri';
+        font-weight: bold;
+        font-size: 18px;
+        color: #3a63a5;
+        flex-wrap: wrap;
+        text-align: left;
+        margin-right: 5px;
+      }
+    
+
+
+      .preguntas{
+        
+        background: #fdfdfd;
+        padding: 10px;
+        border-radius: 14px;
+        margin-bottom: 16px;
+        border: 1px solid #a1a4a9;
+        font-family: 'calibri';
+        font-size: 18px;
+        color: #525252;
+        flex-wrap: wrap;
+        margin-right: 5px;
+      }
+
+      .botonEnviar{
+        align-items: right;
+        width: 90%;
+        background: #585a5c;
+        border: none;
+        padding: 15px;
+        color: white;
+        margin: auto;
+        border-radius: 15px;
+        font-size: 16px;
+        margin-top: 20px;
+        margin-left: 20px;
+       
+      }
+      .botonCancelar{
+        align-items: left;
+        width: 90%;
+        background: #585a5c;
+        border: none;
+        padding: 15px;
+        color: white;
+        margin: auto;
+        border-radius: 15px;
+        font-size: 16px;
+        margin-top: 20px;
+        margin-left: 20px;
+        text-align: center;
+      }
+    
+      .botonEnviar:hover { 
+        background-color: #36a82b;
+        color: white;
+        cursor: pointer;
+      
+      
+       
+      }
+      .botonCancelar:hover { 
+        background-color: #a82b2b;
+        color: white;
+        cursor: pointer;
+      }
+    }
+    
+    @media only screen and (min-width: 386px) and (max-width: 1150px) { /* resolucion media moviles */
+      .resolucion{
+        display: none;
+      }
+      
+      .form__formulario{
+        padding: 10px;
+        width: 400px;
+        background: -webkit-linear-gradient(#f5f6fa, #dcdde1);
+        margin: auto;
+        margin-top: 30px;
+        border-radius: 15px;
+        color: #4a3d3d;
+        box-shadow: -1px 1px 20px 0px #b3b8d1;
+      } 
+    
+      .form__formulario .encabezados{
+        text-align: left;
+        margin-right: 10px;
+      }
+    
+      .contenedor-boton{
+        display: flex;
+        flex-wrap: wrap;
+        justify-items: center;
+      }
+    
+      .botonEnviar{
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        background: #585a5c;
+        border: none;
+        padding: 12px;
+        color: #e3e5e9;
+        margin: 3px 0;
+        border-radius: 45px;
+        font-size: 16px;
+      }
+      .botonCancelar{
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        background: #585a5c;
+        border: none;
+        padding: 12px;
+        color: #e3e5e9;
+        margin: 3px 0;
+        border-radius: 45px;
+        font-size: 16px;
+      }
+      .botonEnviar:hover {
+        background-color: #286d3e;
+        color: white;
+        cursor: pointer;
+      }
+      .botonCancelar:hover { 
+        background-color: #a82b2b;
+        color: white;
+        cursor: pointer;
+      }
+    }
+    
+    @media only screen and (max-width: 385px) { /* resolucion no admitida */
+        .form__formulario{
+        display:none;
+      } 
+    } 
+    
+    .labeles_Formulario{ /* titulo del desplegable Departamentos*/
+    
+      width: 100%;
+      background: #fdfdfd;
+      padding-top: 10px;
+      margin-top: 10px;
+      margin-bottom: 10px; 
+      font-family: 'roboto', sans-serif;
+      font-size: 16px;
+      color: #1e3457;
+     }
+    
+    .titulo{ /*titulo principal del formulario*/
+      text-align: center;
+      font-family: 'Gill Sans', 'Gill Sans MT','Calibri' 'Trebuchet MS', sans-serif;
+      font-size: 20px;
+      color: #3a63a5;
+      margin-top: 10px;
+      text-transform: uppercase;
+    }
+    
+    .input__formulario { /* ingreso de los campos menos los de .deptos */
+      width: 100%;
+      background: #fdfdfd;
+      padding: 10px;
+      border-radius: 10px;
+      margin-top: 10px;
+      margin-bottom: 10px; 
+      border: 1px solid #3a64a5;
+      font-family: 'roboto', sans-serif;
+      font-size: 16px;
+      color: #1e3457;
+    }
+    
+    .campos:focus { /* zoom clic en campos del formulario */
+      border:5px solid white;
+      font-size: 18px;
+      margin-left: -5px;
+      background-color: rgb(58, 99, 165,  0.25);
+    }
+    
+    .deptos{ /* desplegable Departamento y Nivel de educacion formal alcanzado*/
+      width: 340px;
+      background: #fdfdfd;
+      padding: 10px;
+      border-radius: 10px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #a1a4a9;
+      font-family: 'roboto', sans-serif;
+      font-size: 16px;
+      color: #1e3457;
+    }
+    
+    .posee{  /* desplegables SI-NO */
+      width: auto;
+      background: #273c75;
+      border: none;
+      padding: 5px;
+      margin: 10px;
+      color: white;
+      border-radius: 2px;
+      text-align: center;
+      font-size: 14px;
+    }
+    
+    hr { /* separadores de los campos */ 
+     color: #273c75;
+     background-color:  #e3e5e9; 
+     padding: 0px;
+     border-color: #273c75;
+     width: 100%;
+    }
+    
+    .aviso_formulario { /* alerta campo requerido */
+      color:red;
+      text-align: center;
+     
+    }
+    
+    
+    footer {
+      font-family: 'roboto', sans-serif ;
+      font-size: 12px;
+      text-align: center;
+      color: #3a63a5;
+    }
+    .Posicion{
+      color: rgb(255, 255, 255);
+      font-size: x-large;
+      border:solid 2px #811562;
+      background-color: #585a5c;
+     }
